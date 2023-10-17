@@ -3,7 +3,7 @@
 	z-index: 100;
 	width: 350px;
 	height: 100%;
-	background: #201414;
+	background: rgb(51, 48, 48);
 	display: grid;
 	align-items: center;
 	top: 0;
