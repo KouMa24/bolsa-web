@@ -85,7 +85,7 @@
 	transition: 0.2 ease-out;
 }
 .favBtn:hover {
-	background: #5203C3;
+	background: #006eff;
 
   transition: 0.2s ease-out;
   cursor: pointer;
