@@ -11,8 +11,8 @@ const Cakes = ({ id }) => {
 				{cakes.map((cake, index) => (
 					<Slide
 						key={index}
-						right={index >= 3 ? true : false}
-						left={index < 3 ? true : false}
+						right={index >= 4 ? true : false}
+						left={index < 4 ? true : false}
 					>
 						<div className="cakeCard">
 							<img src={cake.img} className="cakeImg" alt={cake.alt} />
