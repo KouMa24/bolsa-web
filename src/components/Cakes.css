@@ -2,8 +2,8 @@
 	/* width: 100vw; */
 	min-height: 100vh;
 	padding: 5rem calc((100vw - 1300px) / 2);
-	background: rgb(51, 48, 48);
-	color: #fff;
+	background: rgb(255, 255, 255);
+	color: #000000;
 }
 
 .cakeWrapper{
@@ -21,8 +21,8 @@
 }
 .cakeImg{
 	height: 200px;
-	box-shadow: 5px 3px #444444;
-  width: auto;
+	box-shadow: 0.1px 0.1px 7px 4px #3a2929;
+  	width: auto;
 }
 
 .cakeHeading{
