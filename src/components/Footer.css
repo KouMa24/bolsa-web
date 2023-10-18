@@ -1,8 +1,8 @@
 
 .footerContainer{
-	background-color: rgb(51, 48, 48);
+	background-color: white;
 	display: flex;
-  color: white;
+  color: black;
 	justify-content: center;
 	align-items: flex-start;
   min-height: 70px;
@@ -25,6 +25,6 @@
 
 .footerColumn a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
