@@ -1,4 +1,4 @@
-.cakeContainer{
+.categoriesContainer{
 	/* width: 100vw; */
 	min-height: 100vh;
 	padding: 5rem calc((100vw - 1300px) / 2);
@@ -6,26 +6,26 @@
 	color: #000000;
 }
 
-.cakeWrapper{
+.categoriesWrapper{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 auto;
 }
 
-.cakeCard{
+.categoriesCard{
 	margin: 0 2rem;
 	line-height: 2;
 	width: 200px;
 
 }
-.cakeImg{
+.categoriesImg{
 	height: 200px;
 	box-shadow: 0.1px 0.1px 7px 4px #3a2929;
   	width: auto;
 }
 
-.cakeHeading{
+.categoriesHeading{
 	font-size: clamp(2rem, 2.5vw, 3rem);
 	text-align: center;
 	margin-bottom: 5rem;
@@ -36,7 +36,7 @@
 	font-size: 2rem;
 }
 
-.cakeInfo{
+.categoriesInfo{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -44,18 +44,7 @@
 	text-align: center;
 }
 
-.cakeDesc{
-	margin-bottom: 1rem;
-}
-
-.cakePrice{
-	margin-bottom: 1rem;
-	font-size: 2rem;
-	margin-top: auto;
-
-}
-
-.cakeBtn{
+.categoriesBtn{
 	font-size: 1rem;
 	padding: 0.5rem 2rem;
 	border: none;
@@ -63,7 +52,7 @@
 	color: #fff;
 	transition: 0.2 ease-out;
 }
-.cakeBtn:hover {
+.categoriesBtn:hover {
 	background: #006eff;
 
   transition: 0.2s ease-out;

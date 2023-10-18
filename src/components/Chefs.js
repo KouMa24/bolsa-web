@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cakes.css';
+import './Categories.css';
 import './Chefs.css';
 import { chefs } from '../data/chefs';
 import Slide from 'react-reveal/Reveal';
