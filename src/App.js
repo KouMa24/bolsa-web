@@ -1,15 +1,14 @@
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Hero from './components/Hero';
+import Title from './components/Title';
 import Favorite from './components/Favorite';
 import Categories from './components/Categories';
-import Chefs from './components/Chefs';
 import Footer from './components/Footer';
 
 function App() {
 	return (
 		<Router>
-			<Hero></Hero>
+			<Title></Title>
 			<Categories id="menu"></Categories>
 			<Favorite ></Favorite>
 			<Footer></Footer>
