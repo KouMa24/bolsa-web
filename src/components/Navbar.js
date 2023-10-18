@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { FaBars } from 'react-icons/fa';
+import logo from "../images/logo.png";
 
 const Navbar = ({ toggle }) => {
 	const [move, setMove] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = ({ toggle }) => {
 	return (
 		<nav className={`navbar ${move ? 'move' : ''}`}>
 			<Link className="navlink" to="/">
-				<div className="desktop">Bolsa de empleo</div>
+				<div className="desktop"><img src= {logo} alt='logo' style={{ width: '1050px', marginTop: '20px' }}/></div>
 			</Link>
 			<div className="navicon" onClick={toggle}>
 				<FaBars className="icon"></FaBars>
