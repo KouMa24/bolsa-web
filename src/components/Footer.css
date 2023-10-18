@@ -1,8 +1,9 @@
 
 .footerContainer{
-	background-color: #0d0909;
+	background-color: white;
 	display: flex;
-	justify-content: end;
+  color: white;
+	justify-content: center;
 	align-items: flex-start;
     height: 350px;
 	width: 100%;
@@ -28,12 +29,8 @@
 	margin-top: 70px;
 	padding-left: 10px;
 }
-.instagram{
-	color:black;
-}
-.facebook{
-	color:black;
-}
-.linkedin{
-	color:black;
+
+.footerColumn a{
+  text-decoration: none;
+  color: white;
 }

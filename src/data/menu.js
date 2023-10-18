@@ -7,7 +7,7 @@ import empleo6 from '../images/Teletica_Logo.png';
 import empleo7 from '../images/Teletica_Logo.png';
 import empleo8 from '../images/Repretel_11_logo.png';
 
-export const cakes = [
+export const Categories = [
 	{
 		img: empleo1,
 		alt: 'Empleo',

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import './Hero.css';
+import './Title.css';
 import Sidebar from './Sidebar';
 
-const Hero = () => {
+const Title = () => {
 	const [show, setShow] = useState(false);
 
 	const toggle = () => {
@@ -27,4 +27,4 @@ const Hero = () => {
 	);
 };
 
-export default Hero;
+export default Title;
