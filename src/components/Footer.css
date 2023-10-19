@@ -5,8 +5,9 @@
   color: black;
 	justify-content: center;
 	align-items: flex-start;
-  min-height: 70px;
-	max-width: 100vw;
+    height: 350px;
+	width: 100%;
+	padding: 20px;
 }
 
 .footerColumn{
@@ -26,4 +27,22 @@
 .footerColumn a{
   text-decoration: none;
   color: black;
+}
+.icono{
+	height:45px ;
+	width: 70px;
+	margin: 25px;
+	display: inline-flex;
+	justify-content: space-around;
+	margin-top: 100px;
+	padding-left: 10px;
+}
+.instagram{
+	color: black;
+}
+.facebook{
+	color: black;
+}
+.linkedin{
+	color: black;
 }
