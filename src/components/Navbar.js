@@ -20,7 +20,7 @@ const Navbar = ({ toggle }) => {
 	return (
 		<nav className={`navbar ${move ? 'move' : ''}`}>
 			<Link className="navlink" to="/">
-				<div className="desktop"><img src= {logo} alt='logo' style={{ width: '1050px', marginTop: '20px' }}/></div>
+				<div className="desktop"><img src= {logo} alt='logo' className='img1'/></div>
 			</Link>
 			<div className="navicon" onClick={toggle}>
 				<FaBars className="icon"></FaBars>

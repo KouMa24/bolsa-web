@@ -6,9 +6,9 @@ const Footer = () => {
 	return (
 		<div className="footerContainer">
 			<div className="iconos">
-				<a href='https://react-icons.github.io/react-icons/icons?name=bs'><FaInstagram className='icon instagram'/></a>
-				<a href='https://react-icons.github.io/react-icons/icons?name=bs'><FaFacebook className='icon facebook'/></a>
-				<a href='https://react-icons.github.io/react-icons/icons?name=bs'><FaLinkedin className='icon linkedin'/></a>
+				<a href='https://react-icons.github.io/react-icons/icons?name=bs'><FaInstagram className='icono instagram'/></a>
+				<a href='https://react-icons.github.io/react-icons/icons?name=bs'><FaFacebook className='icono facebook'/></a>
+				<a href='https://react-icons.github.io/react-icons/icons?name=bs'><FaLinkedin className='icono linkedin'/></a>
 			</div>
 			
 		</div>
