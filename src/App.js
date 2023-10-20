@@ -1,19 +1,17 @@
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Title from './components/Title';
-import Favorite from './components/Favorite';
-import Categories from './components/Categories';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 
 function App() {
-	return (
-		<Router>
-			<Title></Title>
-			<Categories id="menu"></Categories>
-			<Favorite ></Favorite>
-			<Footer></Footer>
-		</Router>
-	);
+  return (
+    <div className="App">
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+      </Router>
+    </div>
+  );
 }
 
 export default App;
+
