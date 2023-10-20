@@ -20,18 +20,15 @@ const Sidebar = ({ toggle, show }) => {
 				<Link to="/" className="sideLink" onClick={() => scrollTo('menu')}>
 					Categorías
 				</Link>
-				<Link to="/" className="sideLink" onClick={() => scrollTo('staff')}>
-					Staff
+				<Link to="/" className="sideLink" onClick={() => scrollTo('favorite')}>
+					Somos Cetav
 				</Link>
-				<Link to="/" className="sideLink">
-					Custom cakes
-				</Link>
-				<Link to="/" className="sideLink">
+				<Link to="/" className="sideLink" onClick={() => scrollTo('footer')}>
 					Contacto
 				</Link>
 
 				<div className="btnWrap">
-					<div className="sideRoute">Suscribirse</div>
+					<div className="sideRoute" onClick={() => scrollTo('menu')}>Suscribirse</div>
 				</div>
 			</div>
 		</div>
