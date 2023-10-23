@@ -3,9 +3,9 @@ import './Favorite.css';
 import Slide from 'react-reveal/Reveal';
 import favorite from '../images/principal-logo.png';
 
-const Favorite = () => {
+const Favorite = ({ id }) => {
 	return (
-		<div className="favContainer">
+		<div className="favContainer" id={id}>
 			<h2>Somos CETAV</h2>
 
 			<div className="favContent">
