@@ -20,36 +20,18 @@ const Sidebar = ({ toggle, show }) => {
 				<Link to="/" className="sideLink" onClick={() => scrollTo('menu')}>
 					Categorías
 				</Link>
-				<Link to="/" className="sideLink" onClick={() => scrollTo('staff')}>
-					Staff
+				<Link to="/" className="sideLink" onClick={() => scrollTo('favorite')}>
+					Somos Cetav
 				</Link>
-				<Link to="/" className="sideLink">
-					Custom cakes
-				</Link>
-				<Link to="/" className="sideLink">
+				<Link to="/" className="sideLink" onClick={() => scrollTo('footer')}>
 					Contacto
 				</Link>
 
 				<div className="btnWrap">
-					<div className="sideRoute">Suscribirse</div>
+					<div className="sideRoute" onClick={() => scrollTo('')}>Suscribirse</div>
 				</div>
 			</div>
 		</div>
-		// <SidebarContainer isOpen={isOpen} onClick={toggle}>
-		// 	<Icon onClick={toggle}>
-		// 		<CloseIcon />
-		// 	</Icon>
-
-		// 	<SidebarMenu>
-		// 		<SidebarLink to="/">Pizzas</SidebarLink>
-		// 		<SidebarLink to="/">Desserts</SidebarLink>
-		// 		<SidebarLink to="/">Full Menu</SidebarLink>
-		// 	</SidebarMenu>
-
-		// 	<SideBtnWrap>
-		// 		<SidebarRoute to="/">Order Now</SidebarRoute>
-		// 	</SideBtnWrap>
-		// </SidebarContainer>
 	);
 };
 

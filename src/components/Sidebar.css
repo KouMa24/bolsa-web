@@ -74,15 +74,15 @@
 .btnWrap{
 	display: flex;
 	justify-content: center;
-  margin-top: 3rem;
+  	margin-top: 1rem;
 }
 
 .sideRoute{
 	background: #F76D28;
 	white-space: nowrap;
-	padding: 16px 64px;
+	padding: 19px 64px;
 	color: #fff;
-	font-size: 16px;
+	font-size: 18px;
 	outline: none;
 	border: none;
 	cursor: pointer;
