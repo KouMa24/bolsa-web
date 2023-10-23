@@ -8,7 +8,12 @@ import Footer from '../components/Footer';
 function App() {
 	return (
 
-		<><Title></Title><Categories id="menu"></Categories><Favorite></Favorite><Footer></Footer></>
+		<>
+		<Title></Title>
+		<Categories id="menu"></Categories>
+		<Favorite id="favorite"></Favorite>
+		<Footer id="footer"></Footer>
+		</>
 
 	);
 }
