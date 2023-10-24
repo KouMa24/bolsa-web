@@ -61,14 +61,10 @@ const Footer = ({ id }) => {
 					</div>
 					<div className='sb__footer-below-links'>
 						<a href='/'><div><p>Términos y Condiciones</p></div></a>
-						<a href='/'><div><p>Términos y Condiciones</p></div></a>
-						<a href='/'><div><p>Términos y Condiciones</p></div></a>
-						<a href='/'><div><p>Términos y Condiciones</p></div></a>
+						
 					</div>
-				</div>
-
+				</div> 
 			</div>
-			
 		</div>
 	);
 };
