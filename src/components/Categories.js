@@ -2,6 +2,7 @@ import React from 'react';
 import './Categories.css';
 import { Categories } from '../data/menu';
 import Slide from 'react-reveal/Reveal';
+import { Link } from 'react-router-dom';
 
 const categories = ({ id }) => {
 	return (
@@ -19,7 +20,7 @@ const categories = ({ id }) => {
 							<div className="categoriesInfo">
 								<div className="protTitle">{Categories.title}</div>
 								<div className="protDesc">{Categories.desc}</div>
-								<button className="categoriesBtn">Ver más</button>
+								<Link to="/category1"><button className="categoriesBtn" >Ver más</button></Link>
 							</div>
 						</div>
 					</Slide>
