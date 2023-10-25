@@ -3,9 +3,7 @@ import empleo2 from '../images/Repretel_4_logo.png';
 import empleo3 from '../images/Repretel_11_logo.png';
 import empleo4 from '../images/Teletica_Logo.png';
 import empleo5 from '../images/Teletica_Logo.png';
-import empleo6 from '../images/Teletica_Logo.png';
-import empleo7 from '../images/Teletica_Logo.png';
-import empleo8 from '../images/Repretel_11_logo.png';
+
 
 export const Categories = [
 	{
@@ -41,27 +39,6 @@ export const Categories = [
 		alt: 'Empleo',
 		title: 'Oferta',
 		desc: 'Aquí va la info',
-		button: 'Ver más',
-	},
-	{
-		img: empleo6,
-		alt: 'Empleo',
-		title: 'Oferta',
-		desc: 'Aquí va la info.',
-		button: 'Ver más',
-	},
-	{
-		img: empleo7,
-		alt: 'Empleo',
-		title: 'Oferta',
-		desc: 'Aquí va la info.',
-		button: 'Ver más',
-	},
-	{
-		img: empleo8,
-		alt: 'Empleo',
-		title: 'Oferta',
-		desc: 'Aquí va la info.',
 		button: 'Ver más',
 	},
 ];
