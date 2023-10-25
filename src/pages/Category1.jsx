@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar2 from "../components/Navbar";
+import Ofertas from "../components/Ofertas";
 
 const Category1 = () => {
   return (
-    <div>Category1</div>
+
+      <><Navbar2></Navbar2>
+      <Ofertas></Ofertas></>
+  
   )
 }
 
