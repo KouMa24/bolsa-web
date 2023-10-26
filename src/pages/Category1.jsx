@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar2 from "../components/Navbar";
+import Navbar22 from "../components/Navbar22";
 import Ofertas from "../components/Ofertas";
 
 const Category1 = () => {
   return (
 
-      <><Navbar2></Navbar2>
+      <><Navbar22></Navbar22>
       <Ofertas></Ofertas></>
   
   )

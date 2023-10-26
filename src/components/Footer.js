@@ -10,7 +10,7 @@ const Footer = ({ id }) => {
 				<div className='sb__footer-links-div'>
 						<h4>Redes Sociales</h4>
 						<div className='social'>
-							<a href='https://instagram.com/parque_lalibertad?igshid=MzRlODBiNWFlZA=='><FaInstagram className='iconee instagram'/></a>
+							<a href='https://instagram.com/cetav_pll?igshid=MzRlODBiNWFlZA=='><FaInstagram className='iconee instagram'/></a>
 							<a href='https://www.facebook.com/cetavcr?mibextid=ZbWKwL'><FaFacebook className='iconee facebook'/></a>
 							<a href='https://www.linkedin.com/in/cetav-parque-la-libertad-832002249/?originalSubdomain=cr'><FaLinkedin className='iconee linkedin'/></a>
 						</div>
