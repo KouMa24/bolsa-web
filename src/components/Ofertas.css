@@ -6,6 +6,7 @@
 	color: #000000;
 }
 
+
 .categoriesWrapper{
 	display: flex;
 	flex-wrap: wrap;
@@ -14,7 +15,7 @@
 }
 
 .categoriesCard{
-	margin: 1.7rem;
+	margin: 3.8rem;
 	line-height: 2;
 	width: 200px;
 

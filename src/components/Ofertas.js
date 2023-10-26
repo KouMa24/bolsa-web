@@ -12,8 +12,8 @@ const CategoriesComponent2 = ({ id }) => {
         {Ofertas.map((Ofertas, index) => (
           <Slide
             key={index}
-            right={index >= 4 ? true : false}
-            left={index < 4 ? true : false}
+            left={index >= 6 ? true : false}
+            right={index < 6 ? true : false}
           >
             <div className="categoriesCard">
               <img src={Ofertas.img} className="categoriesImg" alt={Ofertas.alt} />
