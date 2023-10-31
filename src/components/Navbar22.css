@@ -3,12 +3,12 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    transition: transform 500ms;
+    transition: transform 100ms;
     height: 100px;
   }
   
   .navbar.move {
-    transform: translateY(-800px); 
+    transform: translateY(-8000px); 
   }
   
   .navlink {
