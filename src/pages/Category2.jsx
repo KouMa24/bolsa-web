@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar22 from "../components/Navbar22";
 import Ofertas from "../components/Ofertas";
 
-const Category4 = () => {
+const Category2 = () => {
   return (
 
       <><Navbar22></Navbar22>
@@ -11,4 +11,4 @@ const Category4 = () => {
   )
 }
 
-export default Category4
+export default Category2

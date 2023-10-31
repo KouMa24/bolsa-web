@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Footer = ({ id }) => {
 	return (
@@ -8,32 +9,36 @@ const Footer = ({ id }) => {
 			<div className='sb__footer section__padding'>
 				<div className='sb__footer-links'>
 				<div className='sb__footer-links-div'>
-						<h4>Redes Sociales</h4>
 						<div className='social'>
-							<a href='https://instagram.com/cetav_pll?igshid=MzRlODBiNWFlZA=='><FaInstagram className='iconee instagram'/></a>
-							<a href='https://www.facebook.com/cetavcr?mibextid=ZbWKwL'><FaFacebook className='iconee facebook'/></a>
-							<a href='https://www.linkedin.com/in/cetav-parque-la-libertad-832002249/?originalSubdomain=cr'><FaLinkedin className='iconee linkedin'/></a>
+						<ul>	
+							<li><a href='https://instagram.com/cetav_pll?igshid=MzRlODBiNWFlZA==' class='instagram'><FaInstagram /></a></li>
+							<li><a href='https://www.facebook.com/cetavcr?mibextid=ZbWKwL' class='facebook'><FaFacebook /></a></li>
+							<li><a href='https://www.linkedin.com/in/cetav-parque-la-libertad-832002249/?originalSubdomain=cr'  class='linkedin'><FaLinkedin/></a></li>
+						</ul>
+						</div>
+						<div className="footerNav">
+							<ul>
+							<li><a href="#menu">Categories</a></li>
+							<li><a href="#favorite">Somos Cetav</a></li>
+							<li><a href="#footer">Soporte al Cliente</a></li>
+							</ul>
 						</div>
 					</div>
-					<div className='sb__footer-links-div'>
-						<h4 className='secciones'>Secciones</h4>
-					</div>
-					
 				</div>
-				<hr></hr>
-				<div className='sb__footer-below'>
+				
+			</div>
+			<div className='sb__footer-below'>
 					<div className='sb__footer-copyright'>
 						<p>
 							@{new Date().getFullYear()} La Libertad. Todos los derechos reservados.
 						</p>
 					</div>
 					<div className='sb__footer-below-links'>
-						<a href='/'><div><p>Términos y Condiciones</p></div></a>
-						
+						<a href='/'><div><p>Términos y Condiciones</p></div></a>						
 					</div>
 				</div> 
-			</div>
 		</div>
+		
 	);
 };
 
