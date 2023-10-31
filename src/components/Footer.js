@@ -18,7 +18,7 @@ const Footer = ({ id }) => {
 						</div>
 						<div className="footerNav">
 							<ul>
-							<li><a href="#menu">Categories</a></li>
+							<li><a href="#menu">Categorias</a></li>
 							<li><a href="#favorite">Somos Cetav</a></li>
 							<li><a href="#footer">Soporte al Cliente</a></li>
 							</ul>

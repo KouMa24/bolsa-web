@@ -47,6 +47,7 @@
 	height: 20vh;
 	align-items: center;
 	justify-content: center;
+	padding-right: 58px;
 }
 .social ul li{
 	display: inline-block;
@@ -90,7 +91,8 @@
 	cursor: pointer;
 }
 .footerNav{
-	margin: 18px 0px
+	margin: 12px 0px
+	
 }
 .footerNav ul{
 	display: flex;
@@ -114,7 +116,7 @@
 	text-align: center;
 }
 .sb__footer-copyright p{
-	color: #333;	
+	color: gray;	
 }
 @media screen and (max-width: 850px){
 	
