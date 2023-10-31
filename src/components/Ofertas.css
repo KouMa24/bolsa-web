@@ -1,43 +1,43 @@
-.categoriesContainer{
+.ofertasContainer{
 	/* width: 100vw; */
 	min-height: 100vh;
-	padding: 25rem calc((100vw - 1300px) / 2);
+	padding: 13rem calc((100vw - 1300px) / 2);
 	background: rgb(255, 255, 255);
 	color: #000000;
 }
 
 
-.categoriesWrapper{
+.ofertasWrapper{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 auto;
 }
 
-.categoriesCard{
+.ofertasCard{
 	margin: 3.8rem;
 	line-height: 2;
 	width: 200px;
 
 }
-.categoriesImg{
+.ofertasImg{
 	height: 200px;
 	box-shadow: 0.1px 0.1px 7px 4px #3a2929;
   	width: auto;
 }
 
-.categoriesHeading{
+.ofertasHeading{
 	font-size: clamp(2rem, 2.5vw, 3rem);
 	text-align: center;
 	margin-bottom: 5rem;
 }
 
-.protTitle{
+.ofertasTitle{
 	font-weight: 400;
 	font-size: 2rem;
 }
 
-.categoriesInfo{
+.ofertasInfo{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -45,7 +45,7 @@
 	text-align: center;
 }
 
-.categoriesBtn{
+.ofertasBtn{
 	font-size: 1rem;
 	padding: 0.5rem 2rem;
 	border: none;
@@ -53,7 +53,7 @@
 	color: #fff;
 	transition: 0.2 ease-out;
 }
-.categoriesBtn:hover {
+.ofertasBtn:hover {
 	background: #006eff;
 
   transition: 0.2s ease-out;

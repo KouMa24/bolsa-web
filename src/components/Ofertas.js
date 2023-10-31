@@ -6,22 +6,22 @@ import { Link } from 'react-router-dom';
 
 const CategoriesComponent2 = ({ id }) => {
   return (
-    <div className="categoriesContainer" id={id}>
-      <h1 className="categoriesHeading">Ofertas</h1>
-      <div className="categoriesWrapper">
+    <div className="ofertasContainer" id={id}>
+      <h1 className="ofertasHeading">Ofertas</h1>
+      <div className="ofertasWrapper">
         {Ofertas.map((Ofertas, index) => (
           <Slide
             key={index}
             left={index >= 6 ? true : false}
             right={index < 6 ? true : false}
           >
-            <div className="categoriesCard">
-              <img src={Ofertas.img} className="categoriesImg" alt={Ofertas.alt} />
-              <div className="categoriesInfo">
-                <div className="protTitle">{Ofertas.title}</div>
-                <div className="protDesc">{Ofertas.desc}</div>
-                <Link to={`/category${index + 1}`}>
-                  <button className="categoriesBtn">Ver más</button>
+            <div className="ofertasCard">
+              <img src={Ofertas.img} className="ofertasImg" alt={Ofertas.alt} />
+              <div className="ofertasInfo">
+                <div className="ofertasTitle">{Ofertas.title}</div>
+                <div className="ofertasDesc">{Ofertas.desc}</div>
+                <Link to={`/ofertas${index + 1}`}>
+                  <button className="ofertasBtn">Ver más</button>
                 </Link>
               </div>
             </div>
