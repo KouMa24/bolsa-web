@@ -1,7 +1,7 @@
 .ofertasContainer{
 	/* width: 100vw; */
 	min-height: 100vh;
-	padding: 10rem calc((100vw - 1300px) / 2);
+	padding: 13rem calc((100vw - 1300px) / 2);
 	background: rgb(255, 255, 255);
 	color: #000000;
 }

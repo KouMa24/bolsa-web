@@ -7,7 +7,7 @@ const Navbar = ({ toggle }) => {
   const [move, setMove] = useState(false);
 
   const moveNavbar = () => {
-    setMove(window.scrollY > 210); // Se mueve después de desplazarse 100 píxeles hacia abajo
+    setMove(window.scrollY > 15); // Se mueve después de desplazarse 100 píxeles hacia abajo
   };
 
   useEffect(() => {
