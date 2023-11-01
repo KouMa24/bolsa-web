@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar22 from "../components/Navbar22";
-import Ofertas from "../components/Ofertas";
+import Ofertas from "../components/JobList";
 
 const Category3 = () => {
   return (

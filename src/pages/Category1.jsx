@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 import Navbar22 from "../components/Navbar22";
-import Ofertas from "../components/Ofertas";
+import JobList from "../components/JobList";  // Cambio de "Ofertas" a "JobList"
 
 const Category1 = () => {
   return (
-
-      <><Navbar22></Navbar22>
-      <Ofertas></Ofertas></>
-  
-  )
+    <>
+      <Navbar22></Navbar22>
+      <JobList></JobList>  {/* Cambio de "Ofertas" a "JobList" */}
+    </>
+  );
 }
 
-export default Category1
+export default Category1;
