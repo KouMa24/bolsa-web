@@ -37,9 +37,9 @@ function CareerList() {
 
   // Renderizado
   return (
-    <div className="categoriesContainer">
-      <h1 className="categoriesHeading">Test Table</h1>
-      <div className="categoriesWrapper">
+    <div className="careerContainer">
+      <h1 className="careerHeading">Test Table</h1>
+      <div className="careerWrapper">
         {Careers.map((career, index) => (
           <CareerOption key={index} career={career} />
         ))}
@@ -52,12 +52,12 @@ function CareerList() {
 function CareerOption({ career }) {
   return (
     <Link to={`/career/${career.name}`} style={{ textDecoration: 'none' }}>
-      <div className="categoriesCard">
-        <img src={career.image} alt={career.name} className="categoriesImg" />
-        <div className="categoriesInfo">
+      <div className="careerCard">
+        <img src={career.image} alt={career.name} className="careerImg" />
+        <div className="careerInfo">
           <h2 className="protTitle">{career.name}</h2>
           <p>{career.description}</p>
-          <button className="categoriesBtn">Ver más</button>
+          <button className=" careerBtn">Ver más</button>
         </div>
       </div>
     </Link>
