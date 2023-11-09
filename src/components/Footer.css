@@ -40,6 +40,7 @@
 	--instagram: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
 	--facebook:#3b5999;
 	--linkedin:#0077B5;
+	--vimeo:#54a7d6;
 }
 
 .social{
@@ -47,7 +48,7 @@
 	height: 20vh;
 	align-items: center;
 	justify-content: center;
-	padding-right: 58px;
+	
 }
 .social ul li{
 	display: inline-block;
@@ -82,6 +83,9 @@
 }
 .social ul li .linkedin:hover{
 	background: var(--linkedin);
+}
+.social ul li .vimeo:hover{
+	background: var(--vimeo);
 }
 
 .sb__footer-links-div p{

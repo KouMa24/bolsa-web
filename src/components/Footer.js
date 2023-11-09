@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
-import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
-import { Link } from 'react-router-dom';
+import { FaInstagram, FaFacebook, FaLinkedin,FaVimeo } from "react-icons/fa";
+
 
 const Footer = ({ id }) => {
 	return (
@@ -14,6 +14,7 @@ const Footer = ({ id }) => {
 							<li><a href='https://instagram.com/cetav_pll?igshid=MzRlODBiNWFlZA==' class='instagram'><FaInstagram /></a></li>
 							<li><a href='https://www.facebook.com/cetavcr?mibextid=ZbWKwL' class='facebook'><FaFacebook /></a></li>
 							<li><a href='https://www.linkedin.com/in/cetav-parque-la-libertad-832002249/?originalSubdomain=cr'  class='linkedin'><FaLinkedin/></a></li>
+							<li><a href='https://vimeo.com/cetav' class='vimeo'><FaVimeo/></a></li>
 						</ul>
 						</div>
 						<div className="footerNav">
