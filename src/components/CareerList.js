@@ -21,6 +21,7 @@ function CareerList() {
         Authorization: `Bearer ${TOKEN}`,
       },
     })
+    
       .then((response) => response.json())
       .then((myJson) => myJson.tables)
       .then((myTables) => myTables.filter((table) => table.name === 'company'))
