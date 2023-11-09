@@ -55,16 +55,17 @@ p{
 .btn{
 	font-size: 1.8rem;
 	padding: 1rem 2rem;
-	border:solid 5px #F76D28;
-	color: white;
+	background:
+radial-gradient(at left center, #5a28cf, #352ace);	
+    color: white;
 	transition: 0.2s ease-out;
 	margin-bottom: 10px;
 	border-radius: 5px;
 }
 
 .btn:hover {
-		background: #F76D28;
-		transition: 0.2s ease-out;
-		cursor: pointer;
-		transform: scale(1.05)
+	background: radial-gradient(at left center, #6445ac, #453adf);	
+	transition: 0.2s ease-out;
+	cursor: pointer;
+	transform: scale(1.05)
 }

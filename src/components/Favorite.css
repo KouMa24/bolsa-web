@@ -80,13 +80,13 @@
 	border: none;
   width: 250px;
   align-self: center;
-		background: #F76D28;
+  background: radial-gradient(at left center, #5a28cf, #352ace);	
 	color: #fff;
 	transition: 0.2 ease-out;
+  border-radius: 5px;
 }
 .favBtn:hover {
-	background: #006eff;
-
+  background: radial-gradient(at left center, #6445ac, #453adf);
   transition: 0.2s ease-out;
   cursor: pointer;
 }

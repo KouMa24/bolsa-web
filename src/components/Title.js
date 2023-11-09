@@ -20,7 +20,7 @@ const Title = () => {
 					<p>
 						Suscribite a nuestro newsletter para recibir nuevas ofertas laborales en tu correo.
 					</p>
-					<div className="btn">Suscribirse</div>
+					<div className="btn">Boletín</div>
 				</div>
 			</div>
 		</div>

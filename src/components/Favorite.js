@@ -20,7 +20,7 @@ const Favorite = ({ id }) => {
 					</div>
 				</Slide>
 			</div>
-			<button className="favBtn">Suscribirse</button>
+			<button className="favBtn">Boletín</button>
 		</div>
 	);
 };

@@ -37,7 +37,7 @@
 }
 
 :root{
-	--instagram:#e4405f;
+	--instagram: linear-gradient(to top right, #FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
 	--facebook:#3b5999;
 	--linkedin:#0077B5;
 }

@@ -28,7 +28,7 @@ const Sidebar = ({ toggle, show }) => {
 				</Link>
 
 				<div className="btnWrap">
-					<div className="sideRoute" onClick={() => scrollTo('')}>Suscribirse</div>
+					<div className="sideRoute" onClick={() => scrollTo('')}>Boletín</div>
 				</div>
 			</div>
 		</div>

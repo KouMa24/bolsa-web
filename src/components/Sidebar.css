@@ -67,7 +67,7 @@
 }
 
 .sideLink:hover {
-  color: #F76D28;
+  color: #9b7edf;
   transition: 0.2s ease-in-out;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .sideRoute{
-	background: #F76D28;
+	background:  radial-gradient(at left center, #5a28cf, #352ace);	
 	white-space: nowrap;
 	padding: 19px 64px;
 	color: #fff;
@@ -88,9 +88,11 @@
 	cursor: pointer;
 	transition: 0.2s ease-in-out;
 	text-decoration: none;
+	border-radius: 5px;
 }
 
 .sideRoute:hover {
+  background: radial-gradient(at left center, #6445ac, #453adf);	
   transition: transform 0.2s ease-in-out;
   transform: scale(1.1)
 }
