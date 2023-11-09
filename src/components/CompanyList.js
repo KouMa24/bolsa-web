@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';
-import base from "../api/base";
-import DisplayCompany from "./DisplayCompany";
+import base from "../api/base.js";
+import DisplayCompany from "./DisplayCompany.js";
+import { properties } from "../api/properties.js"
 
 function CompanyList() {
   let {careerToFind} = useParams();
   const [Companies, setCompanies] = useState([]);
   useEffect(() => {
-    base("Jobs")
+    base(properties.tableName)
       .select({ view: 'Grid view',
-				filterByFormula: 'FIND("'+careerToFind+'", career) > 0'})
+				filterByFormula: 'FIND("'+careerToFind+`", ${properties.fieldName}) > 0`})
       .eachPage((records, fetchNextPage) => {
         setCompanies(records);
         fetchNextPage();

@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import './CareerList.css'; // Asegúrate de colocar el nombre correcto de tu archivo CSS
+import { properties } from "../api/properties.js"
+
 
 // Constantes
-const TOKEN = 'patZTU0Nu8mvEfqQf.1b9e913c066ccfa15ea79772392da190ffba8d9ba6dfdc1d8dc1f3e2c51a9873'; //schema.bases:read scope required
-const BASE_ID = 'appWTWqC62qUVcz9w';
+const TOKEN = properties.tokenKey;
+const BASE_ID = properties.baseId;
 const API_URL = `https://api.airtable.com/v0/meta/bases/${BASE_ID}/tables`;
 
 // Componente
@@ -24,9 +26,9 @@ function CareerList() {
     
       .then((response) => response.json())
       .then((myJson) => myJson.tables)
-      .then((myTables) => myTables.filter((table) => table.name === 'Jobs'))
+      .then((myTables) => myTables.filter((table) => table.name === properties.tableName))
       .then((selectedTables) => selectedTables.map((table) => table.fields).flat())
-      .then((fields) => fields.filter((field) => field.name === 'career'))
+      .then((fields) => fields.filter((field) => field.name ===  properties.fieldName))
       .then((myField) => setCareers(myField.map((field) => field.options.choices).flat()));
   };
 
