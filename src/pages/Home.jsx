@@ -1,15 +1,15 @@
 import React from 'react';
 import '../App.css';
 import Title from '../components/Title';
+import CareerList from '../components/CareerList';
 import Favorite from '../components/Favorite';
-import Categories from '../components/Categories';
 import Footer from '../components/Footer';
 
 function App() {
 	return (
 		<>
 				<Title></Title>
-				<Categories id="menu"></Categories>
+				<CareerList id="menu"></CareerList>
 				<Favorite id="favorite"></Favorite>
 				<Footer id="footer"></Footer>
 			</>
