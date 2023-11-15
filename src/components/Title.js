@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import './Title.css';
 import Sidebar from './Sidebar';
@@ -20,7 +21,9 @@ const Title = () => {
 					<p>
 						Suscribite a nuestro newsletter para recibir nuevas ofertas laborales en tu correo.
 					</p>
-					<div className="btn">Boletín</div>
+					<div className="btn">
+					<Link to="https://airtable.com/appWTWqC62qUVcz9w/shrip8uhxuMrJLWXh">Boletín</Link>
+					</div>
 				</div>
 			</div>
 		</div>

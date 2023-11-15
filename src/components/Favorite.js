@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Favorite.css';
 import Slide from 'react-reveal/Reveal';
 import favorite from '../images/principal-logo.png';
@@ -20,7 +21,9 @@ const Favorite = ({ id }) => {
 					</div>
 				</Slide>
 			</div>
-			<button className="favBtn">Boletín</button>
+			<button className="favBtn">
+				<Link to="https://airtable.com/appWTWqC62qUVcz9w/shrip8uhxuMrJLWXh">Boletín</Link>
+				</button>
 		</div>
 	);
 };

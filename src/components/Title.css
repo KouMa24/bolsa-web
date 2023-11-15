@@ -57,7 +57,6 @@ p{
 	padding: 1rem 2rem;
 	background:
 radial-gradient(at left center, #5a28cf, #352ace);	
-    color: white;
 	transition: 0.2s ease-out;
 	margin-bottom: 10px;
 	border-radius: 5px;
@@ -69,3 +68,4 @@ radial-gradient(at left center, #5a28cf, #352ace);
 	cursor: pointer;
 	transform: scale(1.05)
 }
+
