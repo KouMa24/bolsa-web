@@ -1,6 +1,6 @@
 .careerContainer {
     min-height: 100vh;
-    padding: 2rem calc((100vw - 1300px) / 2);
+    padding: 5rem calc((100vw - 1300px) / 2);
     background: rgb(255, 255, 255);
     color: #000000;
   }
@@ -14,7 +14,7 @@
   
   .careerCard {
     margin: 1rem;
-    line-height: 1.5;
+    line-height: 1.5rem;
     width: 200px;
   }
   
@@ -27,7 +27,7 @@
   .careerHeading {
     font-size: clamp(2rem, 2.5vw, 3rem);
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 17rem;
   }
   
   .protTitle {
@@ -44,8 +44,10 @@
   }
   
   .careerBtn {
+    position: absolute;
+    top: 100rem;
     font-size: 1rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 3rem;
     border: none;
     background: radial-gradient(at left center, #5a28cf, #352ace);
     color: #fff;
@@ -53,7 +55,7 @@
     border-radius: 5px;
   }
   
-  .careerBtn:hover {
+  .careerBtn:hover {  
     background: radial-gradient(at left center, #6445ac, #453adf);
     transition: 0.2s ease-out;
     cursor: pointer;

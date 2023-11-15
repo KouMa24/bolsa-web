@@ -10,7 +10,7 @@ const BASE_ID = properties.baseId;
 const API_URL = `https://api.airtable.com/v0/meta/bases/${BASE_ID}/tables`;
 
 // Componente
-function CareerList() {
+function CareerList( {id} ) {
   // Estado
   const [Careers, setCareers] = useState([]);
 
@@ -39,7 +39,7 @@ function CareerList() {
 
   // Renderizado
   return (
-    <div className="careerContainer">
+    <div className="careerContainer" id={id}>
       <h1 className="careerHeading">Categorías</h1>
       <div className="careerWrapper">
         {Careers.map((career, index) => (
