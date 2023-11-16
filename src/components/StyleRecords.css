@@ -58,14 +58,14 @@
   
   /* Estilos para la imagen del logo */
   .card-img-left {
-    width: calc(100% - 60px); /* Ajuste para el margen */
-    height: auto;
-    border-radius: 12px;
-    margin-bottom: 20px; /* Mayor espacio entre la imagen y el texto */
-    margin-left: 30px; /* Margen izquierdo */
-    margin-right: 30px; /* Margen derecho */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra para efecto de borde */
-  }
+  width: calc(100% - 60px); /* Ajuste para el margen */
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px; /* Mayor espacio entre la imagen y el texto */
+  margin-left: 30px; /* Margen izquierdo */
+  margin-right: 30px; /* Margen derecho */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra para efecto de borde */
+}
   
   /* Estilos para el botón "Ver más" */
   .boton {
