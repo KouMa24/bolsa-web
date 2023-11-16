@@ -20,7 +20,10 @@
     margin: 30px; /* Mayor espacio alrededor de la tarjeta */
     display: flex;
     flex-direction: column;
+    align-items: center; /* Centrar contenido horizontalmente */
+    justify-content: center; /* Centrar contenido verticalmente */
     background: #fff;
+    font-size: 1em; /* Tamaño de fuente más pequeño */
   }
   
   .thecard:hover {
@@ -30,35 +33,26 @@
   /* Estilos para el contenido dentro de la tarjeta */
   .thecard-content {
     padding: 30px; /* Mayor espacio interior */
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  /* Estilos para la sección del nombre de la empresa */
-  .company-info {
-    text-align: center;
+    align-items: center; /* Centrar contenido horizontalmente */
+    justify-content: center; /* Centrar contenido verticalmente */
+    text-align: center; /* Centrar texto */
   }
   
   /* Estilos para el nombre de la empresa */
   .nombre {
-    font-size: 2.4em; /* Texto más pequeño */
+    font-size: 1.6em; /* Texto más pequeño */
     font-weight: bold;
-    margin-bottom: 20px; /* Mayor espacio entre elementos */
+    margin-bottom: 16px; /* Mayor espacio entre elementos */
     color: #333;
     text-transform: uppercase;
   }
   
-  /* Estilos para la sección de la carrera */
-  .career-info {
-    margin-top: 30px; /* Mayor espacio */
-  }
-  
   /* Estilos para la carrera */
   .career {
-    font-size: 1.4em; /* Texto más pequeño */
-    margin-bottom: 20px; /* Mayor espacio entre elementos */
+    font-size: 1.2em; /* Texto más pequeño */
+    margin-bottom: 16px; /* Mayor espacio entre elementos */
     color: #555;
   }
   
@@ -67,7 +61,7 @@
     width: calc(100% - 60px); /* Ajuste para el margen */
     height: auto;
     border-radius: 12px;
-    margin-bottom: 30px; /* Mayor espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Mayor espacio entre la imagen y el texto */
     margin-left: 30px; /* Margen izquierdo */
     margin-right: 30px; /* Margen derecho */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra para efecto de borde */
@@ -78,15 +72,14 @@
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 15px 30px; /* Ajuste del padding */
-    border-radius: 10px; /* Borde más redondeado */
+    padding: 12px 24px; /* Ajuste del padding */
+    border-radius: 8px; /* Borde más redondeado */
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-size: 1.6em; /* Texto más pequeño */
-    align-self: center;
+    font-size: 1.2em; /* Texto más pequeño */
     text-transform: uppercase;
     font-weight: bold; /* Texto en negrita */
-    letter-spacing: 1px; /* Espaciado entre letras */
+    letter-spacing: 0.8px; /* Espaciado entre letras */
   }
   
   .boton:hover {
