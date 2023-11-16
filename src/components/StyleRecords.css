@@ -4,41 +4,73 @@
 .maincontainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     padding: 20px;
-    flex-direction: row; /* Cambiar la dirección a horizontal */
   }
   
   /* Estilos para cada tarjeta */
   .thecard {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    width: 450px; /* Aumento del ancho */
+    max-width: 90%; /* Máximo ancho */
+    height: auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    transition: transform 0.3s ease-in-out;
+    margin: 30px; /* Mayor espacio alrededor de la tarjeta */
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+  }
+  
+  .thecard:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Estilos para el contenido dentro de la tarjeta */
+  .thecard-content {
+    padding: 30px; /* Mayor espacio interior */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Estilos para la sección del nombre de la empresa */
+  .company-info {
+    text-align: center;
   }
   
   /* Estilos para el nombre de la empresa */
   .nombre {
-    font-size: 1.5em;
+    font-size: 2.4em; /* Texto más pequeño */
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Mayor espacio entre elementos */
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  /* Estilos para la sección de la carrera */
+  .career-info {
+    margin-top: 30px; /* Mayor espacio */
   }
   
   /* Estilos para la carrera */
   .career {
-    font-size: 1.2em;
-    margin-bottom: 15px;
+    font-size: 1.4em; /* Texto más pequeño */
+    margin-bottom: 20px; /* Mayor espacio entre elementos */
+    color: #555;
   }
   
   /* Estilos para la imagen del logo */
   .card-img-left {
-    width: 100%;
+    width: calc(100% - 60px); /* Ajuste para el margen */
     height: auto;
-    border-radius: 4px;
-    margin-bottom: 15px;
+    border-radius: 12px;
+    margin-bottom: 30px; /* Mayor espacio entre la imagen y el texto */
+    margin-left: 30px; /* Margen izquierdo */
+    margin-right: 30px; /* Margen derecho */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra para efecto de borde */
   }
   
   /* Estilos para el botón "Ver más" */
@@ -46,10 +78,15 @@
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 8px 16px;
-    border-radius: 4px;
+    padding: 15px 30px; /* Ajuste del padding */
+    border-radius: 10px; /* Borde más redondeado */
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-size: 1.6em; /* Texto más pequeño */
+    align-self: center;
+    text-transform: uppercase;
+    font-weight: bold; /* Texto en negrita */
+    letter-spacing: 1px; /* Espaciado entre letras */
   }
   
   .boton:hover {
