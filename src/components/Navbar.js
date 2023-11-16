@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
 	const [move, setMove] = useState(false);
 
 	const moveNavbar = () => {
-		if (window.scrollY >= window.innerHeight) {
+		if (window.scrollY >800) {
 			setMove(true);
 		} else {
 			setMove(false);

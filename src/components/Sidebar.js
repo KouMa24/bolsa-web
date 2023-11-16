@@ -20,9 +20,6 @@ const Sidebar = ({ toggle, show }) => {
 				<Link to="/" className="sideLink" onClick={() => scrollTo('menu')}>
 					Categorías
 				</Link>
-				<Link to="/" className="sideLink" onClick={() => scrollTo('favorite')}>
-					Somos Cetav
-				</Link>
 				<Link to="/" className="sideLink" onClick={() => scrollTo('footer')}>
 					Contacto
 				</Link>
