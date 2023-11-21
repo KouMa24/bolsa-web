@@ -1,47 +1,88 @@
-.maincontainer{
-    position: relative;
-    width: 350px;
-    height: 420px;
-    margin: 6rem;
-    display: inline-block;
-    border-radius: 5px;
-    color: black;
-    border: gray;
-    top: 4rem;
-    left: 8rem;
-}
-.thecard{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    margin: 5px;
-    box-shadow: 0.2px 0.2px 10px 6px gray;
-    
-}
-.boton{
-	font-size: 0.8rem;
-	padding: 1rem 4rem;
-	background:#191D88;	
-    color: white;
-	transition: 0.2s ease-out;
-	margin-bottom: 10px;
-	border-radius: 10px;
-    margin: 35px;
-    margin-right: 35px;
-    position: absolute;
-    top: 23rem;
-    left: 3rem;
-    
-}
-.card-img-left{
-    
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    margin: 1px;
-    box-shadow: 0.2px 0.2px 10px 6px gray;
+/* StyleRecords.css */
 
+/* Estilos para el contenedor principal */
+.maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para cada tarjeta */
+  .thecard {
+    width: 450px; /* Aumento del ancho */
+    max-width: 90%; /* Máximo ancho */
+    height: auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    transition: transform 0.3s ease-in-out;
+    margin: 30px; /* Mayor espacio alrededor de la tarjeta */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido horizontalmente */
+    justify-content: center; /* Centrar contenido verticalmente */
+    background: #fff;
+    font-size: 1em; /* Tamaño de fuente más pequeño */
+  }
+  
+  .thecard:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Estilos para el contenido dentro de la tarjeta */
+  .thecard-content {
+    padding: 30px; /* Mayor espacio interior */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido horizontalmente */
+    justify-content: center; /* Centrar contenido verticalmente */
+    text-align: center; /* Centrar texto */
+  }
+  
+  /* Estilos para el nombre de la empresa */
+  .nombre {
+    font-size: 1.6em; /* Texto más pequeño */
+    font-weight: bold;
+    margin-bottom: 16px; /* Mayor espacio entre elementos */
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  /* Estilos para la carrera */
+  .career {
+    font-size: 1.2em; /* Texto más pequeño */
+    margin-bottom: 16px; /* Mayor espacio entre elementos */
+    color: #555;
+  }
+  
+  /* Estilos para la imagen del logo */
+  .card-img-left {
+  width: calc(100% - 60px); /* Ajuste para el margen */
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px; /* Mayor espacio entre la imagen y el texto */
+  margin-left: 30px; /* Margen izquierdo */
+  margin-right: 30px; /* Margen derecho */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra para efecto de borde */
 }
-
+  
+  /* Estilos para el botón "Ver más" */
+  .boton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px; /* Ajuste del padding */
+    border-radius: 8px; /* Borde más redondeado */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em; /* Texto más pequeño */
+    text-transform: uppercase;
+    font-weight: bold; /* Texto en negrita */
+    letter-spacing: 0.8px; /* Espaciado entre letras */
+  }
+  
+  .boton:hover {
+    background-color: #0056b3;
+  }
+  

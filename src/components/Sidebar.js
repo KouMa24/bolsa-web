@@ -2,6 +2,13 @@ import React from 'react';
 import './Sidebar.css';
 import { Link } from 'react-router-dom';
 
+const linkStyles =  {
+	margin: "1rem",
+	textDecoration: "none",
+	color: "white"
+
+}
+
 const Sidebar = ({ toggle, show }) => {
 	const scrollTo = (id) => {
 		const element = document.getElementById(id);
@@ -20,15 +27,12 @@ const Sidebar = ({ toggle, show }) => {
 				<Link to="/" className="sideLink" onClick={() => scrollTo('menu')}>
 					Categorías
 				</Link>
-				<Link to="/" className="sideLink" onClick={() => scrollTo('favorite')}>
-					Somos Cetav
-				</Link>
 				<Link to="/" className="sideLink" onClick={() => scrollTo('footer')}>
 					Contacto
 				</Link>
 
-				<div className="btnWrap" >
-				 <Link to ="https://airtable.com/appWTWqC62qUVcz9w/shrip8uhxuMrJLWXh">Boletín</Link>
+				<div className="btnWrap">
+					<div className="sideRoute" onClick={() => scrollTo('')}>Boletín</div>
 				</div>
 			</div>
 		</div>
