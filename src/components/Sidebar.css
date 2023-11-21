@@ -77,7 +77,7 @@
   	margin-top: 1rem;
 }
 
-.sideRoute{
+.btnWrap1{
 	background:  radial-gradient(at left center, #5a28cf, #352ace);	
 	white-space: nowrap;
 	padding: 19px 64px;
@@ -91,7 +91,7 @@
 	border-radius: 5px;
 }
 
-.sideRoute:hover {
+.btnWrap1:hover {
   background: radial-gradient(at left center, #6445ac, #453adf);	
   transition: transform 0.2s ease-in-out;
   transform: scale(1.1)
