@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import './CareerList.css'; // Asegúrate de colocar el nombre correcto de tu archivo CSS
+import { Categories, getImageObjectByKey } from "../pages/menu.js"
 import { properties } from "../api/properties.js"
 
 
@@ -55,7 +56,7 @@ function CareerOption({ career }) {
   return (
     <Link to={`/career/${career.name}`} style={{ textDecoration: 'none' }}>
       <div className="careerCard">
-        <img src={career.image} alt={career.name} className="careerImg" />
+      <img src={getImageObjectByKey(career.name).img} alt={career.name} className="careerImg" />
         <div className="careerInfo">
           <h2 className="protTitle">{career.name}</h2>
           <p>{career.description}</p>

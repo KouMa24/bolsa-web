@@ -72,27 +72,18 @@
 }
 
 .btnWrap{
-	display: flex;
-	justify-content: center;
-  	margin-top: 1rem;
+	font-size: 0.8rem;
+	padding: 1rem 1rem;
+	background:
+radial-gradient(at left center, #5a28cf, #352ace);	
+	transition: 0.2s ease-out;
+	margin-bottom: 10px;
+	border-radius: 18px;
 }
 
-.sideRoute{
-	background:  radial-gradient(at left center, #5a28cf, #352ace);	
-	white-space: nowrap;
-	padding: 19px 64px;
-	color: #fff;
-	font-size: 18px;
-	outline: none;
-	border: none;
+.btnWrap:hover {
+	background: radial-gradient(at left center, #6445ac, #453adf);	
+	transition: 0.2s ease-out;
 	cursor: pointer;
-	transition: 0.2s ease-in-out;
-	text-decoration: none;
-	border-radius: 5px;
-}
-
-.sideRoute:hover {
-  background: radial-gradient(at left center, #6445ac, #453adf);	
-  transition: transform 0.2s ease-in-out;
-  transform: scale(1.1)
+	transform: scale(1.05)
 }
