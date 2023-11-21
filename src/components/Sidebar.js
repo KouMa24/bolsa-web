@@ -32,7 +32,10 @@ const Sidebar = ({ toggle, show }) => {
 				</Link>
 
 				<div className="btnWrap">
-					<div className="sideRoute" onClick={() => scrollTo('')}>Boletín</div>
+					<div className='btnWrap1'>
+						<Link to="https://airtable.com/appWTWqC62qUVcz9w/shrip8uhxuMrJLWXh" style={linkStyles}>Boletín</Link>
+					</div>
+				
 				</div>
 			</div>
 		</div>
