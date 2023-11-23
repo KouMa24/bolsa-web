@@ -60,7 +60,7 @@ function CareerOption({ career }) {
         <div className="careerInfo">
           <h2 className="protTitle">{career.name}</h2>
           <p>{career.description}</p>
-          <button className=" careerBtn">Ver más</button>
+          <button className="careerBtn">Ver más</button>
         </div>
       </div>
     </Link>
