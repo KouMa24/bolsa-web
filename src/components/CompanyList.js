@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import base from "../api/base.js";
 import DisplayCompany from "./DisplayCompany.js";
 import { properties } from "../api/properties.js"
+import './StyleRecords.css';
 
 function CompanyList() {
   let {careerToFind} = useParams();
@@ -18,7 +19,11 @@ function CompanyList() {
   });
   return (
     <div>
-      <h1>Test Table {careerToFind}</h1>
+      <div className="fondo">
+      <div className="titulo">
+      <h1>{careerToFind}</h1>
+      </div>
+      </div>
       {Companies.map((t) => (
 		<DisplayCompany key={t.id} company={t}/>
       ))}

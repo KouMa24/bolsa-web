@@ -16,7 +16,7 @@ const CategoriesComponent = ({ id }) => {
             right={index < 5 ? true : false}
           >
             <div className="categoriesCard">
-              <img src={category.img} className="categoriesImg" alt={category.alt} />
+              <img src={category.img} className="categoriesImg" alt={category.alt}/>
               <div className="categoriesInfo">
                 <div className="protTitle">{category.title}</div>
                 <div className="protDesc">{category.desc}</div>

@@ -7,6 +7,7 @@ import paidmedia from '../images/Repretel_4_logo.png';
 import defaultImg from '../images/cake2.jpg';
 
 
+
 const Categories = [
 	{
 		img: empleo1,

@@ -9,7 +9,6 @@ const linkStyles =  {
 	margin: "1rem",
 	textDecoration: "none",
 	color: "white"
-
 }
 
 const Title = () => {

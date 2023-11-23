@@ -3,6 +3,7 @@
     padding: 5rem calc((100vw - 1300px) / 2);
     background: rgb(234, 228, 228);
     color: #000000;
+   
   }
   
   .careerWrapper {
@@ -16,27 +17,28 @@
     margin: 3rem;
     line-height: 1.5rem;
     width: 200px;
+    flex: 1;
   }
   
   .careerImg {
-    height: 150px;
-    box-shadow: 0.1px 0.1px 7px 2px #3a2929;
+    height: 170px;
+    box-shadow: 0.1px 0.1px 17px 2px #3a2929;
     width: 100%;
   }
   
   .careerHeading {
     font-size: clamp(2rem, 2.5vw, 3rem);
     text-align: center;
-    margin-bottom: 5rem ;
+    margin-bottom: 1rem ;
   }
   
   .protTitle {
     font-weight: 600;
     font-size: 1.5rem;
+    align-self: center;
   }
   
   .careerInfo {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
@@ -45,7 +47,7 @@
   
   .careerBtn {
     position: relative;
-    top: 1rem;
+    text-align: center;
     font-size: 1rem;
     padding: 0.5rem 3rem;
     border: none;

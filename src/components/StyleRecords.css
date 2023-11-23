@@ -2,10 +2,11 @@
 
 /* Estilos para el contenedor principal */
 .maincontainer {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 45px;
+    margin: 10px;
   }
   
   /* Estilos para cada tarjeta */
@@ -17,13 +18,15 @@
     overflow: hidden;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
     transition: transform 0.3s ease-in-out;
-    margin: 30px; /* Mayor espacio alrededor de la tarjeta */
+    margin: 25px; /* Mayor espacio alrededor de la tarjeta */
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrar contenido horizontalmente */
     justify-content: center; /* Centrar contenido verticalmente */
     background: #fff;
     font-size: 1em; /* Tamaño de fuente más pequeño */
+    padding: 0.5rem;
+
   }
   
   .thecard:hover {
@@ -51,7 +54,7 @@
   
   /* Estilos para la carrera */
   .career {
-    font-size: 1.2em; /* Texto más pequeño */
+    font-size: 1.2rem; /* Texto más pequeño */
     margin-bottom: 16px; /* Mayor espacio entre elementos */
     color: #555;
   }
@@ -85,4 +88,18 @@
   .boton:hover {
     background-color: #0056b3;
   }
-  
+  .titulo{
+    color: white;
+    padding-left: 45rem;
+    padding-top: 2.5rem;
+  }
+  .fondo{   
+    margin: 48px;
+    background:
+    radial-gradient(at right, #5a28cf, #352ace);
+    width: 110rem;
+    height: 10rem;
+    box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+
+  }
