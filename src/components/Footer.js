@@ -20,7 +20,7 @@ const Footer = ({ id }) => {
 						<div className="footerNav">
 							<ul>
 							<li><a href="#menu">Categorias</a></li>
-							<li><a href="#favorite">Somos Cetav</a></li>
+							<li><a href="/">Inicio</a></li>
 							<li><a href="#footer">Soporte al Cliente</a></li>
 							</ul>
 						</div>

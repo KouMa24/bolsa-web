@@ -13,16 +13,16 @@
   .thecard {
     width: 450px; /* Aumento del ancho */
     max-width: 90%; /* Máximo ancho */
-    height: auto;
+    height: 430px;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
     transition: transform 0.3s ease-in-out;
-    margin: 25px; /* Mayor espacio alrededor de la tarjeta */
+    margin: 30px; /* Mayor espacio alrededor de la tarjeta */
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrar contenido horizontalmente */
-    justify-content: center; /* Centrar contenido verticalmente */
+     /* Centrar contenido verticalmente */
     background: #fff;
     font-size: 1em; /* Tamaño de fuente más pequeño */
     padding: 0.5rem;
@@ -36,11 +36,11 @@
   /* Estilos para el contenido dentro de la tarjeta */
   .thecard-content {
     padding: 30px; /* Mayor espacio interior */
-    display: flex;
     flex-direction: column;
     align-items: center; /* Centrar contenido horizontalmente */
     justify-content: center; /* Centrar contenido verticalmente */
     text-align: center; /* Centrar texto */
+    display: flex;
   }
   
   /* Estilos para el nombre de la empresa */
@@ -61,7 +61,7 @@
   
   /* Estilos para la imagen del logo */
   .card-img-left {
-  width: calc(100% - 60px); /* Ajuste para el margen */
+  width: calc(300px - 89px); /* Ajuste para el margen */
   height: auto;
   border-radius: 12px;
   margin-bottom: 20px; /* Mayor espacio entre la imagen y el texto */
@@ -83,6 +83,8 @@
     text-transform: uppercase;
     font-weight: bold; /* Texto en negrita */
     letter-spacing: 0.8px; /* Espaciado entre letras */
+    margin-top: auto;
+
   }
   
   .boton:hover {
