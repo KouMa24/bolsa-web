@@ -1,10 +1,10 @@
-import empleo1 from '../images/repretel_1.png';
-import empleo2 from '../images/Repretel_11_logo.png';
-import empleo3 from '../images/Repretel_4_logo.png';
-import empleo4 from '../images/Teletica_Logo.png';
-import empleo5 from '../images/Teletica_Logo.png';
-import paidmedia from '../images/Repretel_4_logo.png';
-import defaultImg from '../images/cake2.jpg';
+import empleo1 from '../images/post.jpg';
+import empleo2 from '../images/animacion2.jpg';
+import empleo3 from '../images/web1.jpg';
+import empleo4 from '../images/AV1.jpg';
+import empleo5 from '../images/CYBER.jpg';
+import paidmedia from '../images/animacion4.jpg';
+import defaultImg from '../images/AV2.jpg';
 
 
 
