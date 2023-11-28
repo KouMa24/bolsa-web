@@ -4,7 +4,7 @@ import empleo3 from '../images/web1.jpg';
 import empleo4 from '../images/AV1.jpg';
 import empleo5 from '../images/CYBER.jpg';
 import paidmedia from '../images/animacion4.jpg';
-import defaultImg from '../images/AV2.jpg';
+import defaultImg from '../images/web3.jpg';
 
 
 

@@ -1,7 +1,11 @@
 import React from "react";
 import './StyleRecords.css';
+import { Link } from "react-router-dom";
+
+
 function CompanyTable({company}) {
   return (
+    <Link to={`/job/${company.id}`} style={{ textDecoration: 'none' }}>
     <div className="maincontainer">
       <div className="thecard">
       {/* <div className="fecha">{company.fields.date}</div> */}
@@ -13,6 +17,7 @@ function CompanyTable({company}) {
       <br/>
       </div>
     </div>
+    </Link>
    );
 }
 
