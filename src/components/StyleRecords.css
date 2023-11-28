@@ -16,9 +16,9 @@
     height: 430px;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    box-shadow: 0 60px 90px rgba(6, 104, 224, 0.15); /* Sombra más pronunciada */
     transition: transform 0.3s ease-in-out;
-    margin: 30px; /* Mayor espacio alrededor de la tarjeta */
+    margin: 20px; /* Mayor espacio alrededor de la tarjeta */
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrar contenido horizontalmente */
@@ -35,7 +35,7 @@
   
   /* Estilos para el contenido dentro de la tarjeta */
   .thecard-content {
-    padding: 30px; /* Mayor espacio interior */
+    padding: 20px; /* Mayor espacio interior */
     flex-direction: column;
     align-items: center; /* Centrar contenido horizontalmente */
     justify-content: center; /* Centrar contenido verticalmente */
@@ -72,7 +72,8 @@
   
   /* Estilos para el botón "Ver más" */
   .boton {
-    background-color: #007bff;
+    background:
+    radial-gradient(at right, #5a28cf, #352ace);
     color: #fff;
     border: none;
     padding: 12px 24px; /* Ajuste del padding */
@@ -101,7 +102,7 @@
     radial-gradient(at right, #5a28cf, #352ace);
     width: 110rem;
     height: 10rem;
-    box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 40px 40px 40px rgba(6, 104, 224, 0.15);
     border-radius: 1rem;
 
   }
