@@ -16,7 +16,7 @@
     height: 430px;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 60px 90px rgba(6, 104, 224, 0.15); /* Sombra más pronunciada */
+    box-shadow: 0 30px 60px rgba(0, 115, 255, 0.487); /* Sombra más pronunciada */
     transition: transform 0.3s ease-in-out;
     margin: 20px; /* Mayor espacio alrededor de la tarjeta */
     display: flex;
@@ -102,7 +102,7 @@
     radial-gradient(at right, #5a28cf, #352ace);
     width: 110rem;
     height: 10rem;
-    box-shadow: 40px 40px 40px rgba(6, 104, 224, 0.15);
+    box-shadow: 0px 30px 60px rgba(7, 119, 255, 0.526);
     border-radius: 1rem;
 
   }
