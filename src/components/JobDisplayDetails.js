@@ -29,18 +29,18 @@ function JobDisplay({ job }) {
     <div className="job-card">
         <div className="oferta">
             {job.fields.logo && <img className="card-img-left" src={job.fields.logo[0].url} />}
+            <div className="description"><h2>Descripción</h2>{job.fields.description}</div>
         </div>
         <div className="info">
             <div className="job">{job.fields.name_job}</div>
-            <div className="carrera">{job.fields.career}</div>
-			      <div className="company">{job.fields.name_company}</div>
-            <div className="description"><h2>Descripcion: </h2>{job.fields.description}</div>
-            <div className="requerimientos">{job.fields.requeriments}</div>
             <ul className="specs">
-              <li><a> <div className="salario"><h2>Salario: </h2>{job.fields.salary}</div></a></li>
               <li><a><div className="email"><h2>Email: </h2>{job.fields.email}</div></a></li>
+              <li><a> <div className="salario"><h2>Salario: </h2>{job.fields.salary}</div></a></li>
               <li><a><div className="nivel"><h2>Nivel: </h2>{job.fields.level}</div></a></li>
-              <li><a><div className="date"> <h2>Fecha: </h2>{job.fields.date}</div></a></li>
+              <li><a><div className="date"><h2>Fecha: </h2>{job.fields.date}</div></a></li>
+              <li><a><div className="carrera"><h2>Carrera</h2>{job.fields.career}</div></a></li>
+              <li><a><div className="company"><h2>Compañía</h2>{job.fields.name_company}</div></a></li>
+              <li><a><div className="requerimientos"><h2>Requerimientos</h2>{job.fields.requeriments}</div></a></li>
             </ul>
         </div>
     </div>
