@@ -1,10 +1,11 @@
-import empleo1 from '../images/post.jpg';
-import empleo2 from '../images/animacion2.jpg';
-import empleo3 from '../images/web1.jpg';
-import empleo4 from '../images/AV1.jpg';
-import empleo5 from '../images/CYBER.jpg';
-import paidmedia from '../images/animacion4.jpg';
-import defaultImg from '../images/web3.jpg';
+import empleo1 from '../images/Postproduccion.png';
+import empleo2 from '../images/Animacion3d.png';
+import empleo3 from '../images/Web.png';
+import empleo4 from '../images/MDD.png';
+import empleo5 from '../images/Ciberseguridad.png';
+import paidmedia from '../images/Visualizacion de datos.png';
+import MothionGaphics from '../images/Mothion Graphics.png';
+import defaultImg from '../images/Mothion Graphics.png';
 
 
 
@@ -46,6 +47,13 @@ const Categories = [
 	},
 	{
 		img: paidmedia,
+		alt: 'Paid Media',
+		title: 'Paid Media',
+		desc: 'Aquí va la info.',
+		button: 'Ver más',
+	},
+	{
+		img: MothionGaphics,
 		alt: 'Paid Media',
 		title: 'Paid Media',
 		desc: 'Aquí va la info.',
