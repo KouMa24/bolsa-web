@@ -1,10 +1,12 @@
-import empleo1 from '../images/post.jpg';
-import empleo2 from '../images/animacion2.jpg';
-import empleo3 from '../images/web1.jpg';
-import empleo4 from '../images/AV1.jpg';
-import empleo5 from '../images/CYBER.jpg';
-import paidmedia from '../images/animacion4.jpg';
-import defaultImg from '../images/web3.jpg';
+import empleo1 from '../images/POST.png';
+import empleo2 from '../images/3D.png';
+import empleo3 from '../images/WEB.png';
+import empleo4 from '../images/MDD.png';
+import empleo5 from '../images/CYBER.png';
+import paidmedia from '../images/PaidMedia.png';
+import MothionGaphics from '../images/Mothion Graphics.png';
+import AVDATA from '../images/AVDATA.png';
+import defaultImg from '../images/3D.png';
 
 
 
@@ -51,6 +53,21 @@ const Categories = [
 		desc: 'Aquí va la info.',
 		button: 'Ver más',
 	},
+	{
+		img: MothionGaphics,
+		alt: 'Motion Graphics',
+		title: 'Motion Graphics',
+		desc: 'Aquí va la info.',
+		button: 'Ver más',
+	},
+	{
+		img: AVDATA,
+		alt: 'Análisis y Visualización de Datos',
+		title: 'Análisis y Visualización de Datos',
+		desc: 'Aquí va la info.',
+		button: 'Ver más',
+	},
+
 ];
 
 function getImageObjectByKey(keyValue) {
