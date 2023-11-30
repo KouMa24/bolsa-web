@@ -58,6 +58,7 @@
 .date{
     font-size: 20px;
     align-items: center;
+    text-indent: 6rem;
     
 }
 
@@ -76,15 +77,15 @@
     transition: transform 0.3s ease-in-out; 
     border-radius: 15px;
     box-shadow: 0 8px 9px rgba(23, 80, 151, 0.487); 
-    
-    
+    flex-wrap: wrap; 
+    list-style: none;
 }
 
 h2{
     font-size: 20px;
     margin: 10px;
     align-items: center;
-    
+    padding-left: -80px;
 }
 .specs li:hover{
     transform: translateY(-5px);
@@ -93,4 +94,17 @@ h2{
 .description{
     padding-left: 10px;
     max-width: 400px;
+}
+
+  .campo-info {
+    display: flex;
+    align-items: center; 
+    margin-right: 10px; 
+    
+  }
+
+  .campo {
+    margin-right: 20px; 
+    text-indent: 5px;
+  
 }

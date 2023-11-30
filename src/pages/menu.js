@@ -1,4 +1,4 @@
-import empleo1 from '../images/post.jpg';
+import empleo1 from '../images/Post.png';
 import empleo2 from '../images/animacion2.jpg';
 import empleo3 from '../images/web1.jpg';
 import empleo4 from '../images/AV1.jpg';

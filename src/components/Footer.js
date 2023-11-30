@@ -3,6 +3,7 @@ import './Footer.css';
 import { FaInstagram, FaFacebook, FaLinkedin,FaVimeo } from "react-icons/fa";
 
 
+
 const Footer = ({ id }) => {
 	return (
 		<div className="footer" id={id}>
@@ -17,13 +18,6 @@ const Footer = ({ id }) => {
 							<li><a href='https://vimeo.com/cetav' class='vimeo'><FaVimeo/></a></li>
 						</ul>
 						</div>
-						<div className="footerNav">
-							<ul>
-							<li><a href="#menu">Categorias</a></li>
-							<li><a href="/">Inicio</a></li>
-							<li><a href="#footer">Soporte al Cliente</a></li>
-							</ul>
-						</div>
 					</div>
 				</div>
 				
@@ -34,9 +28,7 @@ const Footer = ({ id }) => {
 							@{new Date().getFullYear()} La Libertad. Todos los derechos reservados.
 						</p>
 					</div>
-					<div className='sb__footer-below-links'>
-						<a href='/'><div><p>Términos y Condiciones</p></div></a>						
-					</div>
+					
 				</div> 
 		</div>
 		

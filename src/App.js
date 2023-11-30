@@ -5,7 +5,6 @@ import CompanyList from "./components/CompanyList";
 import JobDisplayDetails from "./components/JobDisplayDetails";
 
 
-
 function App() {
   return (
     <div className="App">
