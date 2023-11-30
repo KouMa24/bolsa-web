@@ -6,7 +6,6 @@
 	transition: transform 500ms;
 	height: 10px;
   }
-
   .navbar.move {
 	transform: translateY(-2000px);
   }
@@ -32,14 +31,11 @@
   }
   
   .navicon {
-
 	.desktop{
 		display:none;
 	}
 }
-
 .navicon{
-
 	display: block;
 	position: absolute;
 	top: 0;
@@ -52,8 +48,8 @@
 
   }
   .img1{
-	width: 970px;
-	height: 200px;
-	margin-left: 520px;
-	margin-top: 55px;
+	width: 375px;
+	height: 85px;
+	margin-left: 775px;
+	margin-top: 80px;
   };

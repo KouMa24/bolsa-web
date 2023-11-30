@@ -3,21 +3,16 @@ import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import './Title.css';
 import Sidebar from './Sidebar';
-
-
 const linkStyles =  {
 	margin: "1rem",
 	textDecoration: "none",
 	color: "white"
 }
-
 const Title = () => {
 	const [show, setShow] = useState(false);
-
 	const toggle = () => {
 		setShow(!show);
 	};
-
 	return (
 		<div className="container">
 			<Navbar toggle={toggle}></Navbar>
@@ -29,12 +24,11 @@ const Title = () => {
 						Suscribite a nuestro newsletter para recibir nuevas ofertas laborales en tu correo.
 					</p>
 					<div className="btn">
-					<Link to="https://airtable.com/appWTWqC62qUVcz9w/shrip8uhxuMrJLWXh" style={linkStyles}>Boletín</Link>
+					<Link to="https://airtable.com/appWTWqC62qUVcz9w/shrip8uhxuMrJLWXh" className= 'btn1' style={linkStyles}>Boletín</Link>
 					</div>
 				</div>
 			</div>
 		</div>
 	);
 };
-
 export default Title;

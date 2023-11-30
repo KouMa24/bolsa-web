@@ -1,39 +1,92 @@
-.navbar {
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    transition: transform 100ms;
-    height: 100px;
+.sideContainer{
+	position: fixed;
+	z-index: 100;
+	width: 350px;
+	height: 100%;
+	background: rgb(51, 48, 48);
+	display: grid;
+	align-items: center;
+	top: 0;
+	transition: left 0.3s ease-in-out;
+	left: -500px;
+}
+.sideContainer.show{
+  left:0;
+}
+@media screen and (max-width: 400px) {
+  .sideContainer{
+    width: 100%;
   }
-  
-  .navbar.move {
-    transform: translateY(-8000px); 
+}
+/* export const CloseIcon = styled(FaTimes){
+	color: #000;
+} */
+.close{
+	position: absolute;
+	top: 1.2rem;
+	right: 1.5rem;
+	background: transparent;
+	border: transparent;
+	font-size: 1.4rem;
+	cursor: pointer;
+	outline: none;
+	color: #fdfdfd;
+  transition: transform 0.5s ease-in;
+}
+.close:hover{
+  transform: scale(1.3)
+}
+.sideMenu{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, 80px);
+	text-align: center;
+  margin-bottom: 5rem;
+}
+@media screen and (max-width: 480px) {
+  .sideMenu {
+    grid-template-rows: repeat(4, 60px);
   }
-  
-  .navlink {
-    display: flex;
-    margin-bottom: 120px;
+}
+.sideLink{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	text-decoration: none;
+	list-style: none;
+	transition: 0.2s ease-in-out;
+	color: #fdfdfd;
+	cursor: pointer;
+}
+.sideLink:hover {
+  color: #9b7edf;
+  transition: 0.2s ease-in-out;
+}
+.btnWrap{
+	display: flex;
+	justify-content: center;
+  	margin-top: 1rem;
+}
+
+.btnWrap1 {
+	background: radial-gradient(at left center, #5a28cf, #352ace);
+	white-space: nowrap;
+	padding: 30px 80px;
+	color: #fff;
+	font-size: 18px;
+	outline: none;
+	transition: 0.2s ease-in-out;
+	text-decoration: none;
+	border-radius: 5px;
+	display: flex; /* Alinea los elementos horizontalmente */
+	align-items: center; /* Alinea los elementos verticalmente */
+	text-align: center; /* Centra el texto horizontalmente */
   }
-  
-  @media screen and (max-width: 530px) {
-    .navlink {
-      position: absolute;
-      top: 10px;
-      left: 25px;
-    }
-  
-    .desktop {
-      display: none;
-    }
-  
-    .img1 {
-      width: 100%; /* Ajusta según tus necesidades */
-      height: auto;
-      margin: 0;
-      position: absolute;
-      top: 10px; /* Ajusta según tus necesidades */
-      left: 50%; /* Centra horizontalmente */
-      transform: translateX(-50%); /* Centra horizontalmente */
-    }
-  }
+
+
+.btnWrap1:hover {
+  background: radial-gradient(at left center, #6445ac, #453adf);	
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.1)
+}

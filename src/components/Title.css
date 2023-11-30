@@ -5,7 +5,6 @@
 	background-size: cover;
 	background-attachment: fixed;
 }
-
 .content{
 	height: calc(100vh - 80px);
 	max-height: 100%;
@@ -14,7 +13,6 @@
   justify-content: flex-start;
   align-items: center;
 }
-
 .contentItems{
 	/* background: #f76d2844; */
 	display: flex;
@@ -32,7 +30,6 @@
 @media screen and (max-width: 650px) {
   .contentItems{
   width: 100%;
-
   }
 }
 .navHead{
@@ -41,7 +38,6 @@
 	letter-spacing: 3px;
 	line-height: 1;
 }
-
 p{
 	/* font-size: clamp(2rem, 2.5vw, 3rem); */
 	font-size: clamp(1rem, 1.2rem, 1.4rem);
@@ -52,9 +48,9 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
-.btn{
+.btn1{
 	font-size: 1.8rem;
-	padding: 1rem 2rem;
+	padding: 1rem 5rem;
 	background:
 radial-gradient(at left center, #5a28cf, #352ace);	
 	transition: 0.2s ease-out;
@@ -62,10 +58,9 @@ radial-gradient(at left center, #5a28cf, #352ace);
 	border-radius: 5px;
 }
 
-.btn:hover {
+.btn1:hover {
 	background: radial-gradient(at left center, #6445ac, #453adf);	
 	transition: 0.2s ease-out;
 	cursor: pointer;
 	transform: scale(1.05)
 }
-
