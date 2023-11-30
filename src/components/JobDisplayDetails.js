@@ -4,12 +4,10 @@ import base from "../api/base";
 import { properties } from "../api/properties.js"
 import './Details.css';
 import { Link } from "react-router-dom";
+import { FaArrowAltCircleLeft } from "react-icons/fa";
 
-const linkStyles =  {
-	margin: "1rem",
-	textDecoration: "none",
-	color: "white"
-}
+
+
 function DisplayJobDetail () {
   let {id} = useParams();
   const [Jobs, setJobs] = useState([]);
@@ -32,10 +30,10 @@ function DisplayJobDetail () {
 function JobDisplay({ job }) {
   return (
 	<div className="col-md-3">
-    <div className="btnBack">
-    <Link to="/" onClick={() => window.history.back()} className="boton-volver" style={linkStyles}>
-      Volver
-    </Link>
+    <div className="btnBack3">
+        <Link to="/" onClick={() => window.history.back()} className="btnBack4" >    
+        <FaArrowAltCircleLeft/>
+        </Link>
     </div>
     <div className="job-card">
   <div className="oferta">
