@@ -58,6 +58,7 @@
 .date{
     font-size: 20px;
     align-items: center;
+    text-indent: 6rem;
     
 }
 
@@ -76,15 +77,15 @@
     transition: transform 0.3s ease-in-out; 
     border-radius: 15px;
     box-shadow: 0 8px 9px rgba(23, 80, 151, 0.487); 
-    
-    
+    flex-wrap: wrap; 
+    list-style: none;
 }
 
 h2{
     font-size: 20px;
     margin: 10px;
     align-items: center;
-    
+    padding-left: -80px;
 }
 .specs li:hover{
     transform: translateY(-5px);
@@ -94,3 +95,34 @@ h2{
     padding-left: 10px;
     max-width: 400px;
 }
+<<<<<<< HEAD
+
+  .campo-info {
+    display: flex;
+    align-items: center; 
+    margin-right: 10px; 
+    
+  }
+
+  .campo {
+    margin-right: 20px; 
+    text-indent: 5px;
+  
+}
+=======
+.btnBack3{
+    margin-top: 10px; /* Ajusta el margen según sea necesario */
+}
+  
+.btnBack4{
+    display: inline-block;
+    padding: 10px 60px;
+    color: #5a28cf;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex; /* Alinea los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+>>>>>>> 6f55c77b8552ad71237a5fdda4920f0611c9e13e

@@ -1,0 +1,33 @@
+ .contacto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px;
+    margin-bottom: 40px;
+    
+  }
+  
+  .contacto-info {
+    text-align: left;
+    padding: 20px;
+    max-width: 600px;
+    border: 10px solid whitesmoke;
+    margin: 70px;
+    
+  }
+  
+  .contacto-foto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+  }
+  .contacto-foto img::placeholder{
+    background-color: antiquewhite;
+  }
+  .titulocontacto{
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+}

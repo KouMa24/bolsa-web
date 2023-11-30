@@ -52,9 +52,9 @@ p{
   font-family: 'Open Sans', sans-serif;
 }
 
-.btn{
+.btn1{
 	font-size: 1.8rem;
-	padding: 1rem 2rem;
+	padding: 1rem 5rem;
 	background:
 radial-gradient(at left center, #5a28cf, #352ace);	
 	transition: 0.2s ease-out;
@@ -62,7 +62,7 @@ radial-gradient(at left center, #5a28cf, #352ace);
 	border-radius: 5px;
 }
 
-.btn:hover {
+.btn1:hover {
 	background: radial-gradient(at left center, #6445ac, #453adf);	
 	transition: 0.2s ease-out;
 	cursor: pointer;

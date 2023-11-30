@@ -77,10 +77,10 @@
   	margin-top: 1rem;
 }
 
-.btnWrap1{
-	background:  radial-gradient(at left center, #5a28cf, #352ace);	
+.btnWrap1 {
+	background: radial-gradient(at left center, #5a28cf, #352ace);
 	white-space: nowrap;
-	padding: 19px 64px;
+	padding: 30px 80px;
 	color: #fff;
 	font-size: 18px;
 	outline: none;
@@ -89,7 +89,11 @@
 	transition: 0.2s ease-in-out;
 	text-decoration: none;
 	border-radius: 5px;
-}
+	display: flex; /* Alinea los elementos horizontalmente */
+	align-items: center; /* Alinea los elementos verticalmente */
+	text-align: center; /* Centra el texto horizontalmente */
+  }
+  
 
 .btnWrap1:hover {
   background: radial-gradient(at left center, #6445ac, #453adf);	

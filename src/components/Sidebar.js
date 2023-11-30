@@ -32,10 +32,7 @@ const Sidebar = ({ toggle, show }) => {
 				</Link>
 
 				<div className="btnWrap">
-					<div className='btnWrap1'>
-						<Link to="https://airtable.com/appWTWqC62qUVcz9w/shrip8uhxuMrJLWXh" style={linkStyles}>Boletín</Link>
-					</div>
-				
+					<Link to="https://airtable.com/appWTWqC62qUVcz9w/shrip8uhxuMrJLWXh" className='btnWrap1' style={linkStyles}>Boletín</Link>
 				</div>
 			</div>
 		</div>

@@ -29,7 +29,7 @@ const Title = () => {
 						Suscribite a nuestro newsletter para recibir nuevas ofertas laborales en tu correo.
 					</p>
 					<div className="btn">
-					<Link to="https://airtable.com/appWTWqC62qUVcz9w/shrip8uhxuMrJLWXh" style={linkStyles}>Boletín</Link>
+					<Link to="https://airtable.com/appWTWqC62qUVcz9w/shrip8uhxuMrJLWXh" className= 'btn1' style={linkStyles}>Boletín</Link>
 					</div>
 				</div>
 			</div>

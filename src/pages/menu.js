@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+import empleo1 from '../images/Post.png';
+import empleo2 from '../images/animacion2.jpg';
+import empleo3 from '../images/web1.jpg';
+import empleo4 from '../images/AV1.jpg';
+import empleo5 from '../images/CYBER.jpg';
+import paidmedia from '../images/animacion4.jpg';
+import defaultImg from '../images/web3.jpg';
+=======
 import empleo1 from '../images/POST.png';
 import empleo2 from '../images/3D.png';
 import empleo3 from '../images/WEB.png';
@@ -7,6 +16,7 @@ import paidmedia from '../images/PaidMedia.png';
 import MothionGaphics from '../images/Mothion Graphics.png';
 import AVDATA from '../images/AVDATA.png';
 import defaultImg from '../images/3D.png';
+>>>>>>> 21091781877259bacc399986b8484e2256c50c93
 
 
 
