@@ -94,3 +94,18 @@ h2{
     padding-left: 10px;
     max-width: 400px;
 }
+.btnBack3{
+    margin-top: 10px; /* Ajusta el margen según sea necesario */
+}
+  
+.btnBack4{
+    display: inline-block;
+    padding: 10px 60px;
+    color: #5a28cf;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex; /* Alinea los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+}

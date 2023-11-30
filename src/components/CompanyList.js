@@ -4,6 +4,8 @@ import base from "../api/base.js";
 import DisplayCompany from "./DisplayCompany.js";
 import { properties } from "../api/properties.js"
 import './StyleRecords.css';
+import { Link} from "react-router-dom";
+import { FaArrowAltCircleLeft } from "react-icons/fa";
 
 function CompanyList() {
   let {careerToFind} = useParams();
@@ -20,6 +22,11 @@ function CompanyList() {
   return (
     <div>
       <div className="fondo">
+      <div className="btnBack1">
+        <Link to="/" onClick={() => window.history.back()} className="btnBack2" >
+          <FaArrowAltCircleLeft/>
+        </Link>
+      </div>
       <div className="titulo">
       <h1>{careerToFind}</h1>
       </div>
