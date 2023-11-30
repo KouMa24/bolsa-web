@@ -1,13 +1,12 @@
-import empleo1 from '../images/Postproduccion.png';
-import empleo2 from '../images/Animacion3d.png';
+import empleo1 from '../images/POST.png';
+import empleo2 from '../images/3D.png';
 import empleo3 from '../images/Web.png';
 import empleo4 from '../images/MDD.png';
-import empleo5 from '../images/Ciberseguridad.png';
-import paidmedia from '../images/Visualizacion de datos.png';
+import empleo5 from '../images/CYBER.png';
+import paidmedia from '../images/PaidMedia.png';
 import MothionGaphics from '../images/Mothion Graphics.png';
-import defaultImg from '../images/Mothion Graphics.png';
-
-
+import AVDATA from '../images/AVDATA.png';
+import defaultImg from '../images/3D.png';
 
 const Categories = [
 	{
@@ -54,16 +53,23 @@ const Categories = [
 	},
 	{
 		img: MothionGaphics,
-		alt: 'Paid Media',
-		title: 'Paid Media',
+		alt: 'Motion Graphics',
+		title: 'Motion Graphics',
 		desc: 'Aquí va la info.',
 		button: 'Ver más',
 	},
+	{
+		img: AVDATA,
+		alt: 'Análisis y Visualización de Datos',
+		title: 'Análisis y Visualización de Datos',
+		desc: 'Aquí va la info.',
+		button: 'Ver más',
+	},
+
 ];
 
 function getImageObjectByKey(keyValue) {
   const foundImage = Categories.find(image => image.title.toLowerCase() === keyValue.toLowerCase()); // Change 'id' to your desired key
-
   if (!foundImage) {
     return {
 		img: defaultImg,
@@ -73,8 +79,6 @@ function getImageObjectByKey(keyValue) {
 		button: 'Ver más',
 	};
   }
-
   return foundImage;
 }
-
 export { Categories, getImageObjectByKey };
