@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { FaBars } from 'react-icons/fa';
-import logo from "../images/3D.png";
+import logo from "../images/logo_la_libertad_cetav-03.png";
 
 const Navbar = ({ toggle }) => {
 	const [move, setMove] = useState(false);
